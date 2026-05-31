@@ -31,14 +31,14 @@ $$P(t) = (1-t)^3 P_0 + 3(1-t)^2 t P_1 + 3(1-t) t^2 P_2 + t^3 P_3$$
 Quando rotacionamos apenas os pontos de controle originais do array, a malha final gerada possui faces retas e cantos vivos bem marcados, resultando em um visual Low-Poly com pouca definição.
 
 <p align="center">
-    ![Apenas Revolução](assets/teapotFaces.png)
+    <img width="742" height="534" alt="image" src="https://github.com/user-attachments/assets/96461c2e-617d-4fd2-a918-fc04bc718ae2" />
 </p>
 
 ### Perfil Suavizado (Revolução + Curva de Bézier)
 Ao integrar a equação cúbica de Bézier, novos vértices são interpolados dinamicamente entre os pontos originais antes de aplicar a rotação. Isso resulta em uma superfície perfeitamente arredondada, orgânica e fluida quando visualizada em softwares de renderização.
 
 <p align="center">
-  ![Revolução com Bézier](assets/teapotBezier.png)
+  <img width="751" height="503" alt="image" src="https://github.com/user-attachments/assets/6f1c021e-9cdf-4114-8d95-be92df8a2e81" />
 </p>
 
 ---
